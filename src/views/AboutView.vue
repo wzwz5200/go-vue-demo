@@ -3,7 +3,8 @@
  
 
 
-     
+    
+
 
 
       
@@ -13,6 +14,14 @@
 
   <el-button @click="getdate">登录</el-button>
 </div>
+
+<!-- <div id="login">
+
+</div> -->
+
+
+
+
 
 </template>
 <script>
@@ -47,7 +56,7 @@ export default{
 
         
             API({
-                url:  'http://localhost:9090/api/login',
+                url:  'http://test.88866677.xyz/api/login',
                 method:'post',
                 data: {
                Name: this.user,
@@ -110,15 +119,29 @@ export default{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+
     width: 350px;
     height: 240px;
-    background-color: rgba(255, 255, 255, 0.418);
+
     border-radius:5px;
     position: absolute;
     left: 50%;
-    top: 38%;
+    top: 48%;
     transform: translate(-50%,-50%);
 }
+/* #login{
+ background: "./assets/logo.png";
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+      top: -8%;  
+} */
+
+
+
+
+
+
 </style>
 
