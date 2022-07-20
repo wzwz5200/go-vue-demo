@@ -9,7 +9,7 @@ const API = axios.create({
 
 	headers: {
 
-		 baseURL: "http://wzz.88866677.xyz:80",
+		 baseURL: "",
 		'Content-Type': "multipart/form-data, charset=UTF-8"
 	
 	  }
