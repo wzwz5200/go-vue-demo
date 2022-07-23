@@ -56,7 +56,7 @@ export default{
 
         
             API({
-                url:  'http://test.88866677.xyz/api/login',
+                url:  'https://dd.88866677.xyz/api/login',
                 method:'post',
                 data: {
                Name: this.user,
